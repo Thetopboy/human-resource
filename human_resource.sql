@@ -73,7 +73,7 @@ LIMIT 1;
 
 select * from hr;
 
--- Q14: What is the relationship between salary and performance score?
+-- Q13: What is the relationship between salary and performance score?
 SELECT PerformanceScore,ROUND(AVG(salary),2)AS avg_salary
 FROM HR
 GROUP BY PerformanceScore
